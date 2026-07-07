@@ -82,7 +82,7 @@ body{
     /* flex-grow: 1; */
     padding: 0 5px;
     outline: none;
-    background-color: #E7F9A9;
+    background-color: var(--var2);
 }
 
 .content{
