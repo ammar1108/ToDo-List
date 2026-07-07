@@ -3,8 +3,10 @@
 
 
 :root{
-    --var1:orange;
-    --var2:white;
+    --var1: #3D0814;
+    --var2: #E7F9A9;
+    --var3: #C6B38E;
+}
 }
 
 *{
@@ -66,7 +68,7 @@ body{
     display: flex;
     gap: 10px;
     margin: 3px 0;
-    background-color: white;
+    background-color: var(--var2);
     border-radius: 25px;
     width: 90%;
     justify-content: space-between;
