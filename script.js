@@ -5,7 +5,8 @@ const input = document.querySelector("#input")
 const clear = document.querySelector(".clear");
 
 
-add.addEventListener("click",()=>{
+form.addEventListener("submit",(e)=>{
+    e.preventDefault();
     let item = document.createElement("div");
 
 
@@ -15,13 +16,14 @@ item.innerHTML=`<input type="checkbox" id="check">
 
 item.classList.add("item");
     content.append(item);
+     input.value="";
 })
 
 
 clear.addEventListener("click", ()=>{
     content.innerHTML="";
 
-    form.reset();
+   
 })
 
 
