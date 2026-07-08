@@ -10,7 +10,7 @@ form.addEventListener("submit",(e)=>{
     let item = document.createElement("div");
 
 
-item.innerHTML=`<input type="checkbox" id="check">
+item.innerHTML=`<input type="checkbox">
             <p>${input.value}</p>
             <button class="delete">Delete</button>`
 
